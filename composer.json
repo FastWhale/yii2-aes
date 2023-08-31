@@ -1,13 +1,13 @@
 {
-    "name": "dovechen/yii2-aes",
+    "name": "fastwhale/yii2-aes",
     "description": "Yii2 AES Encrypt&&Decrypt",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","aes"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Dove Chen",
-            "email": "pacifist888@163.com"
+            "name": "Fast Whale",
+            "email": "op@mail.pigcms.com"
         }
     ],
     "require": {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "dovechen\\yii2\\aes\\": ""
+            "fastwhale\\yii2\\aes\\": ""
         }
     }
 }

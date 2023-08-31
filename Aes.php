@@ -1,18 +1,18 @@
 <?php
 	/**
 	 * Create by PhpStorm
-	 * User: dovechen
+	 * User: fastwhale
 	 * Date: 2020/3/25
 	 * Time: 11:30
 	 */
 
-	namespace dovechen\yii2\aes;
+	namespace fastwhale\yii2\aes;
 
 	use yii\base\Component;
 
 	/**
 	 * Class Aes
-	 * @package dovechen\yii2\aes
+	 * @package fastwhale\yii2\aes
 	 */
 	class Aes extends Component
 	{

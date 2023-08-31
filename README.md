@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist dovechen/yii2-aes "*"
+php composer.phar require --prefer-dist fastwhale/yii2-aes "*"
 ```
 
 or add
 
 ```
-"dovechen/yii2-aes": "*"
+"fastwhale/yii2-aes": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -30,7 +30,7 @@ Aes init
 'components' => [
     ...
     'aes' => [
-        'class' => 'dovechen\yii2\aes\Aes',
+        'class' => 'fastwhale\yii2\aes\Aes',
         'key'   => 'Y34lM1IyOSUTEa5h', // The encrypt & decrypt key.
         'iv'    => 'jKWFi17PZhpy08In', // A non-NULL Initialization Vector, default: 397e2eb61307109f.
     ]
@@ -42,7 +42,7 @@ $aesMcrypt = Yii::$app->aes;
 
 // More Use
 $aesMcrypt = Yii::createObject([
-    'class' => 'dovechen\yii2\aes\Aes',
+    'class' => 'fastwhale\yii2\aes\Aes',
     'key'   => 'Y34lM1IyOSUTEa5h', // The encrypt & decrypt key.
     'iv'    => 'jKWFi17PZhpy08In', // A non-NULL Initialization Vector, default: 397e2eb61307109f.
 ]);
